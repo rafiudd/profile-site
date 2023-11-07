@@ -5,8 +5,8 @@ export default function Document() {
   const headdata = [
     {
       image:
-        "https://www.eliaschen.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Feliaschen.d614d9a1.jpg&w=640&q=75",
-      url: "https://www.eliaschen.dev/",
+        "https://www.rafiudd.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Feliaschen.d614d9a1.jpg&w=640&q=75",
+      url: "https://www.rafiudd.dev/",
       description:
         "Learning about coding and creating something useful for every developers and user",
       title: "EliasChen - Developer",
@@ -24,7 +24,7 @@ export default function Document() {
         ></link>
         <link
           rel="shortcut icon"
-          href="https://www.eliaschen.dev/eliaschen-png-500x500.png"
+          href="https://www.rafiudd.dev/eliaschen-png-500x500.png"
         />
         <meta
           name="description"
@@ -32,13 +32,13 @@ export default function Document() {
         />
         <meta
           name="keywords"
-          content="eliaschen, EliasChen, Elias Chen, elias chen, elias, chen, font-end developer"
+          content="eliaschen, EliasChen, Rayhan Rafiud Darojat, Rayhan Rafiud Darojat, elias, chen, font-end developer"
         />
-        <meta name="author" content="Elias Chen" />
+        <meta name="author" content="Rayhan Rafiud Darojat" />
         {/* og: */}
         <meta
           property="og:image"
-          content="https://www.eliaschen.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Feliaschen.d614d9a1.jpg&w=640&q=75"
+          content="https://www.rafiudd.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Feliaschen.d614d9a1.jpg&w=640&q=75"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={headdata.url} />
@@ -51,7 +51,7 @@ export default function Document() {
         <meta property="twitter:description" content={headdata.description} />
         <meta
           property="twitter:image"
-          content="https://www.eliaschen.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Feliaschen.d614d9a1.jpg&w=640&q=75"
+          content="https://www.rafiudd.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Feliaschen.d614d9a1.jpg&w=640&q=75"
         />
       </Head>
       <body className="dark:bg-[#111111] bg-[#f9fafb] dark:text-white duration-75">

@@ -6,7 +6,6 @@ import NextNProgress from "nextjs-progressbar";
 import "/styles/globals.css";
 import { SessionProvider } from "next-auth/react";
 import { Analytics } from "@vercel/analytics/react";
-import RouteTransitions from "../components/RouteTransitions";
 import Head from "next/head";
 import { motion } from "framer-motion";
 // import "../components/SiteTransitions";
@@ -37,11 +36,10 @@ function MyApp({ Component, pageProps, session }) {
       >
         <Header />
         {/* <SiteTransitions> */}
-        <RouteTransitions>
           <main className="pt-20 px-[15px] xs:px-[25px] mx-auto max-w-4xl">
             <SessionProvider session={session}>
               <Script
-                src="https://www.eliaschen.dev/theme.js"
+                src="https://www.rafiudd.dev/theme.js"
                 strategy="beforeInteractive"
               />
               <Component {...pageProps} />
@@ -49,7 +47,6 @@ function MyApp({ Component, pageProps, session }) {
             </SessionProvider>
             <Footer />
           </main>
-        </RouteTransitions>
       </motion.div>
     </main>
   );

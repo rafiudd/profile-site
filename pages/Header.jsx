@@ -2,8 +2,8 @@ import React from 'react'
 import { FaSlackHash } from 'react-icons/fa'
 import Link from 'next/link'
 import ColorModeToggle from '/components/ColorModeToggle'
-import NavlinkDropMenu from '../components/NavlinkDropMenu'
-import { NavLinks } from '/components/data/Navlinks'
+// import NavlinkDropMenu from '../components/NavlinkDropMenu'
+// import { NavLinks } from '/components/data/Navlinks'
 import { useRouter } from 'next/router'
 
 const Header = () => {
@@ -17,33 +17,15 @@ const Header = () => {
               <span className=" text-3xl !mt-[2px] duration-150 group-hover:rotate-[17.5deg]">
                 <FaSlackHash />
               </span>
-              EliasChen.dev
+              rafiudd.dev
             </h2>
           </Link>
           <div className="headernav ml-1 text-lg hidden md:inline-flex">
-            {NavLinks.map((links) => (
-              <Link
-                key={links.link}
-                aria-label={links.title}
-                className={`${
-                  links.title === "" ? "hidden" : ""
-                } px-2 hover:underline underline-offset-[8px] ${
-                  router.pathname == links.link
-                    ? "font-extrabold text-purple-500"
-                    : "font-normal"
-                }`}
-                href={links.link}
-              >
-                {links.title}
-              </Link>
-            ))}
+
           </div>
           <div className="flex-1"></div>
           <div className="items-center">
             <ColorModeToggle />
-          </div>
-          <div className="">
-            <NavlinkDropMenu />
           </div>
         </nav>
       </div>

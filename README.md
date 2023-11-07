@@ -1,9 +1,9 @@
-# [eliaschen.dev](https://www.eliaschen.dev)
+# [rafiudd.dev](https://www.rafiudd.dev)
 
 My personal site made with Nextjs, Tailwindcss\
-[https://www.eliaschen.dev](https://www.eliaschen.dev)
+[https://www.rafiudd.dev](https://www.rafiudd.dev)
 
-[![eliaschen photoshot](public/eliaschen.jpg)](https://www.eliaschen.dev)
+[![eliaschen photoshot](public/eliaschen.jpg)](https://www.rafiudd.dev)
 
 ## 📦Package
 
