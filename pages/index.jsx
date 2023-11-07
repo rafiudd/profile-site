@@ -24,10 +24,11 @@ export default function HomePage() {
           <div className="flex-1"></div>
           <div className="w-[130px] sm:w-[140px] relative sm:my-[25px] my-[-15px] sm:mx-0 mx-[-10px] ">
             <Image
-              placeholder="blur"
+              width={130}
+              height={130}
               src="https://storage.googleapis.com/uudgantengs123/rafiudd-profile.jpeg"
-              alt="eliaschen"
-              className="w-auto rounded-full grayscale"
+              alt="rafiudd profile photo"
+              className="w-auto rounded-full"
             />
           </div>
         </div>
